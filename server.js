@@ -2,7 +2,7 @@ const legoData = require("./modules/legoSets");
 const express = require('express');
 const path = require('path');
 const app = express();
-
+require('pg');
 const HTTP_PORT = process.env.PORT || 8080;
 
 // Middleware
