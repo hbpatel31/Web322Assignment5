@@ -1,8 +1,23 @@
+/********************************************************************************
+*  WEB322 – Assignment 05
+* 
+*  I declare that this assignment is my own work in accordance with Seneca's
+*  Academic Integrity Policy:
+* 
+*  https://www.senecacollege.ca/about/policies/academic-integrity-policy.html
+* 
+*  Name: Hill Bhupendrabhai Patel Student ID: 132031220 Date: 19th July 2024
+*
+*  Published URL: ___________________________________________________________
+*
+********************************************************************************/
+
+
 const legoData = require("./modules/legoSets");
 const express = require('express');
 const path = require('path');
 const app = express();
-require('pg');
+
 const HTTP_PORT = process.env.PORT || 8080;
 
 // Middleware
