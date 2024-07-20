@@ -2,6 +2,7 @@ require('dotenv').config();
 const Sequelize = require('sequelize');
 const setData = require("../data/setData");
 const themeData = require("../data/themeData");
+const pg = require('pg');
 let sets = [];
 
 
